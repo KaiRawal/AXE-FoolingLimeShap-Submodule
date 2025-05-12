@@ -1,0 +1,49 @@
+=============================================================================
+
+Running COMPAS experiment...
+	 %compas LIME-1 fidelity 0.9919093851132686
+ compas1 & lime & PGI & 0.006 & 0.000 & 0.000 & 0.067 \\ 
+ compas1 & lime & PGU & -0.481 & -0.479 & -0.485 & -0.431 \\ 
+ compas1 & lime & AXE & 0.992 & 0.739 & 0.731 & 0.534 \\ 
+	 %compas LIME-2 fidelity 0.9902912621359223
+ compas2 & lime & PGI & 0.006 & 0.000 & 0.001 & 0.075 \\ 
+ compas2 & lime & PGU & -0.520 & -0.520 & -0.524 & -0.464 \\ 
+ compas2 & lime & AXE & 0.990 & 0.739 & 0.735 & 0.533 \\ 
+	 %compas SHAP-1 fidelity 0.9676375404530745
+ compas1 & shap & PGI & 0.006 & 0.035 & 0.028 & 0.009 \\ 
+ compas1 & shap & PGU & -0.091 & -0.077 & -0.081 & -0.090 \\ 
+ compas1 & shap & AXE & 0.968 & 0.761 & 0.723 & 0.527 \\ 
+	 %compas SHAP-2 fidelity 0.9563106796116505
+ compas2 & shap & PGI & 0.005 & 0.039 & 0.041 & 0.010 \\ 
+ compas2 & shap & PGU & -0.104 & -0.090 & -0.092 & -0.106 \\ 
+ compas2 & shap & AXE & 0.956 & 0.746 & 0.731 & 0.531 \\ 
+ - - - - - - - - - - - - - - - - - - 
+Running Communities and Crime experiment...
+	 %cc LIME-1 fidelity 1.0
+ cc1 & lime & PGI & 0.103 & 0.000 & 0.000 & 0.029 \\ 
+ cc1 & lime & PGU & -0.479 & -0.460 & -0.479 & -0.481 \\ 
+ cc1 & lime & AXE & 1.000 & 0.765 & 0.755 & 0.793 \\ 
+	 %cc LIME-2 fidelity 0.995
+ cc2 & lime & PGI & 0.101 & 0.001 & 0.001 & 0.034 \\ 
+ cc2 & lime & PGU & -0.534 & -0.536 & -0.536 & -0.535 \\ 
+ cc2 & lime & AXE & 0.995 & 0.760 & 0.760 & 0.792 \\ 
+	 %cc SHAP-1 fidelity 0.985
+ cc1 & shap & PGI & 0.089 & 0.006 & 0.001 & 0.005 \\ 
+ cc1 & shap & PGU & -0.446 & -0.429 & -0.450 & -0.448 \\ 
+ cc1 & shap & AXE & 0.985 & 0.765 & 0.760 & 0.790 \\ 
+	 %cc SHAP-2 fidelity 0.95
+ cc2 & shap & PGI & 0.094 & 0.006 & 0.005 & 0.008 \\ 
+ cc2 & shap & PGU & -0.479 & -0.470 & -0.479 & -0.479 \\ 
+ cc2 & shap & AXE & 0.955 & 0.760 & 0.755 & 0.781 \\ 
+ - - - - - - - - - - - - - - - - - - 
+Running German experiment...
+	 %german LIME-1 fidelity 1.0
+ german & lime & PGI & 0.032 & 0.148 & na & 0.018 \\ 
+ german & lime & PGU & -0.486 & -0.536 & na & -0.483 \\ 
+ german & lime & AXE & 1.000 & 0.680 & na & 0.617 \\ 
+	 %german SHAP-1 fidelity 0.99
+ german & shap & PGI & 0.037 & 0.000 & na & 0.037 \\ 
+ german & shap & PGU & -0.475 & -0.529 & na & -0.478 \\ 
+ german & shap & AXE & 0.990 & 0.690 & na & 0.622 \\ 
+=============================================================================
+
